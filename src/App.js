@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes,Route } from 'react-router-dom';
+import {  Routes,Route, HashRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import Register from './pages/Register';
 import Mainheader from './components/Mainheader';
@@ -16,7 +16,7 @@ function App() {
   return (
     <FormContextProvider>
     <div className="">
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<Mainheader/>}>
           <Route index element={<Home/>}></Route>
@@ -25,7 +25,7 @@ function App() {
           <Route path="*" element={<div className='container'><h1 className='text-center font-weight-bold my-5 py-5'>Page Not Found</h1></div>}></Route>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </div></FormContextProvider>
   );
 }
