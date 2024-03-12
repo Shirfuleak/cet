@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/cet/static/css/main.3bda58d6.css",
+    "main.js": "/cet/static/js/main.978777d3.js",
+    "static/js/592.ec6837a1.chunk.js": "/cet/static/js/592.ec6837a1.chunk.js",
+    "static/media/Seal_of_Maharashtra.png": "/cet/static/media/Seal_of_Maharashtra.4fcd8beec71b3fb6d365.png",
+    "static/media/ashokstamb.png": "/cet/static/media/ashokstamb.2e36994503de97681d45.png",
+    "static/media/cetlogo.png": "/cet/static/media/cetlogo.9121c0624a2c863b8f32.png",
+    "index.html": "/cet/index.html",
+    "main.3bda58d6.css.map": "/cet/static/css/main.3bda58d6.css.map",
+    "main.978777d3.js.map": "/cet/static/js/main.978777d3.js.map",
+    "592.ec6837a1.chunk.js.map": "/cet/static/js/592.ec6837a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bda58d6.css",
+    "static/js/main.978777d3.js"
+  ]
+}
