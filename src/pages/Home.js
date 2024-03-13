@@ -33,7 +33,7 @@ const Home = () => {
             <input type="email" value={formValues.email} name="email" className="form-control" onChange={handleInputChange}/>
             <label htmlFor="password" className="form-label mt-3">Password </label>
             <input type="password" value={formValues.password} name="password" className="form-control" onChange={handleInputChange}/>
-             <p className="text-end text-decoration-none"><a href='register' className="text-decoration-none">Forget Password</a></p>
+             <p className="text-end text-decoration-none"><Link to='register' className="text-decoration-none">Forget Password</Link></p>
              <button className="btn btn-primary form-control my-2" onClick={onSubmitform}>Sign In </button>
             </div>
 
