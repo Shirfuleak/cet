@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from 'axios';
 import { useFormData } from "./Formcontext";
-import {  useNavigate } from "react-router-dom";
+import {  Link, useNavigate } from "react-router-dom";
 import { useDispatch } from 'react-redux';
 import { updateFormData } from "../components/redux/formDataSlice";
 // import { updateFormData } from "../components/redux/actions";
@@ -142,8 +142,8 @@ const Register = ({updateData}) => {
               </div>
             )} */}
              <button className="btn btn-primary form-control mb-3 font-weight-bold" onClick={onSubmitform}>Register </button>
-             <p className="text-start text-decoration-none"><a href='/' className="text-decoration-none">
-Already Registered? Back to Login</a></p>
+             <p className="text-start text-decoration-none"><Link to='/' className="text-decoration-none">
+Already Registered? Back to Login</Link></p>
           </div>
         </div>
       </div>
